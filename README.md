@@ -9,9 +9,10 @@ in this project, if any client visit any website then web server will store that
 ![3](https://github.com/user-attachments/assets/fa46fc17-c46c-4a71-b1c5-5ab0092c5a56)
 
 ### Locks working 
+- Mutex lock
 ![5](https://github.com/user-attachments/assets/b1311ca0-3c87-49d8-9121-aa77866f3db1)
 
-Semaphore , it is integer value and also same as locks
+- Semaphore , it is integer value and also same as locks
 if sem = 10 then max_client can access the cache are 10 , other have to wait in queue
 In Semaphores their are two function : 
 1. sem_wait() -- it check the sem value if it positive then allow the thread to do manipulations of cache and decrease sem value by 1;
