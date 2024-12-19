@@ -25,3 +25,6 @@ else if sem value is negative then thread have to wait until signal function is 
 
  - When website is opened for the first time (`url not found`) then cache will be miss.
  - Then if you again open that website again then `Data is retrieved from the cache` will be printed.
+## Limitation 
+- Only work for HTTP/1.0 AND HTTP/1.1 version
+- Fixed size of cache element , so big website may not be stored in cache.
