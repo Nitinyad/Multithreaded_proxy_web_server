@@ -5,6 +5,10 @@ in this project, if any client visit any website then web server will store that
 
 ![1](https://github.com/user-attachments/assets/56e2474a-d81d-42cd-a4b2-5673f4da14f5)
 ![2](https://github.com/user-attachments/assets/46b60cc2-f8c1-48a7-9e75-8c2a8e4c7b07)
+
+## Structure of Request coming
+![6](https://github.com/user-attachments/assets/34472ef1-b2db-4687-9196-545187fb160e)
+we are using a library to parse this request ,so that we can store the url , body , port etc into the cache.
 ## Structure of LRU cache
 ![3](https://github.com/user-attachments/assets/fa46fc17-c46c-4a71-b1c5-5ab0092c5a56)
 
